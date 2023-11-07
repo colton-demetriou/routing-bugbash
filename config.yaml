@@ -15,14 +15,9 @@ dynamicRedirects:
   # This is a custom redirect because the status code is 3xx.
 staticRedirects:
   -
-    from: /grey-redirect
-    to: /gray
-    statusCode: 308
-staticRedirects:
-  -
     from: /blue-redirect
     to: /blue
-  statusCode: 305
+    statusCode: 305
 
 # adds authentication to your site. Commented out as a policy with the name auth02 must exist
 # authentication:
