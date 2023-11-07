@@ -11,7 +11,7 @@ dynamicRedirects:
   -
     from: /all/*
     to: /blue
-    statusCode: 200
+    status: 200
   # This is a custom redirect because the status code is 3xx.
 staticRedirects:
   -
